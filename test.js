@@ -16,10 +16,9 @@ describe("arraySumm", function() {
 			});
 		}
 		
-		for (let x = 1; x <= 5; x++) {
-			let testArray = getRandomArray();
-			makeTest(testArray)
-		}
+		let testArray = getRandomArray();
+		makeTest(testArray)
+		
 	});
 	
 	it("при содержании в массиве нечисла выдает ошибку", function() {
@@ -42,7 +41,6 @@ describe("percentage", function() {
 		});
 	});
 });
-console.log(percentage)
 function getRandomArray() {
 	let testArray = [];
 	for(let i=0;i<Math.floor(Math.random() * (100 - 1)) + 1;i++){
