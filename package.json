@@ -1,0 +1,14 @@
+{
+  "name": "percentage",
+  "version": "1.0.0",
+  "description": "Дан массив из N долей, представленных в виде N рациональных Написать программу, представляющую эти доли в процентном выражении с точностью до трех знаков после запятой:",
+  "main": "percentage.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "shaggyrec",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
